@@ -21,6 +21,6 @@
     <title>E-COMMERCE</title>
 </head>
 <body>
-<nav class="navbar navbar-dark bg-dark text-white">
+<nav class="navbar navbar-dark bg-dark">
     <h2>HOUSE OF FIDO AND FIGARO</h2>
 </nav>

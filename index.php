@@ -7,13 +7,13 @@ require_once __DIR__ . '/Models/DogsProduct.php';
 /* CREAZIONE NUOVA CLASSE */
 
 
-$dogs = new DogsProduct('Bocconcini per cani', '19,90 $');
-$dogs1 = new DogsProduct('Ossi per cani', '9,90 $');
-$dogs2 = new DogsProduct('Guinzaglio per cani', '22,90 $');
+$dogs = new DogsProduct('Bocconcini per cani', '19.90 $');
+$dogs1 = new DogsProduct('Ossi per cani', '9.90 $');
+$dogs2 = new DogsProduct('Guinzaglio per cani', '22.90 $');
 
-$cats = new CatsProduct('Crocchette per gatti', '18,90 $');
-$cats1 = new CatsProduct('Trespolo per gatti', '107,90 $');
-$cats2 = new CatsProduct('Lettiera per gatti', '68,90 $');
+$cats = new CatsProduct('Crocchette per gatti', '18.90 $');
+$cats1 = new CatsProduct('Trespolo per gatti', '107.90 $');
+$cats2 = new CatsProduct('Lettiera per gatti', '68.90 $');
 
 // PROVA VAR DUMP (FUNZIONANTE)
 //var_dump($cats);

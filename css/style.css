@@ -4,7 +4,7 @@ nav{
 .containerx{
     width: 100%;
     height: 84vh;
-    background-color: blue;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e6/Pet_Food_Aisle.jpg");
 }
 footer{
     height: 10vh;
@@ -14,28 +14,39 @@ footer{
     margin: 0 auto;
 }
 
-.carddog, .cardcat{
-    height: 35vh;
+.cardDog, .cardCat{
+    height: 36vh;
     width: 12vw;
-    background-color: red;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 30px;
 }
 .cats, .dogs{
     width: 100%;
     height: 45%;
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 h2, h3{
     text-align: center;
+    color: white;
 }
 img{
-    height: 60%;
+    height: 300px;
     width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 p{
     text-align: center;
     font-weight: 600;
     text-transform: uppercase;
+}
+.lineThrough{
+    color: red;
+    text-decoration: line-through;
+}
+.green{
+    color: green;
 }
