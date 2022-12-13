@@ -18,11 +18,9 @@
     
     <link href="./css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <title>Test Php</title>
+    <title>E-COMMERCE</title>
 </head>
 <body>
-<nav class="navbar navbar-dark bg-dark">
-<div class="container-md">
-    <a class="navbar-brand" href="#">Navbar</a>
-  </div>
+<nav class="navbar navbar-dark bg-dark text-white text-center">
+    <h2>HOUSE OF FIDO AND FIGARO</h2>
 </nav>

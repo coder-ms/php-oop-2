@@ -1,8 +1,10 @@
 <?php
 // REQUIRED
+/*
 require_once __DIR__ . '/Models/User.php';
 require_once __DIR__ . '/Models/PremiumUser.php';
 require_once __DIR__ . '/Models/Membership.php';
+*/
 
 
 
