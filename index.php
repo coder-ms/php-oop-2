@@ -1,11 +1,14 @@
 <?php
 // REQUIRED
-/*
-require_once __DIR__ . '/Models/User.php';
-require_once __DIR__ . '/Models/PremiumUser.php';
-require_once __DIR__ . '/Models/Membership.php';
-*/
 
+//require_once __DIR__ . '/Models/User.php';
+require_once __DIR__ . '/Models/CatsProduct.php';
+require_once __DIR__ . '/Models/DogsProduct.php';
+
+
+// echo 'Hello world';
+
+/* CREAZIONE CLASSE */
 
 
 // INCLUDE
