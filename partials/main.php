@@ -31,8 +31,8 @@
                 </div>
                 <div>
                     <p><?php echo $dogs1->getDogsProudctDetails() ?></p>
-                    <p class="green"> PEZZI DISPONIBILI: 
-                        <?php
+                    <p class="green">  
+                        <?php echo('PEZZI DISPONIBILI:');
                         echo multiplication(7);
                         ?>
                     </p>
