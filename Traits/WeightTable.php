@@ -5,8 +5,8 @@
         public function getWeight(){
             return $this->weight;
         }
-        public function setWeight($weight, $unit){
-        $this->weight = $weight . $unit;
+        public function setWeight( $typology ,$weight, $unit){
+            $this->weight = $typology . $weight . $unit;
         }
 
     }

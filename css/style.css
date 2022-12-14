@@ -23,6 +23,9 @@ footer{
     background-color: white;
     border-radius: 30px;
 }
+.cardDog{
+    margin-bottom: 10px;
+}
 .cats, .dogs{
     width: 100%;
     height: 50%;

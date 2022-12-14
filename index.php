@@ -10,7 +10,7 @@ require_once __DIR__ . '/Models/DogsProduct.php';
 $dogs = new DogsProduct('Bocconcini per cani', '19.90 $');
 $dogs1 = new DogsProduct('Ossi per cani', '9.90 $');
 $dogs2 = new DogsProduct('Guinzaglio per cani', '22.90 $');
-$dogs->getWeight();
+$dogs->setWeight( 'Confezione da ', '10', 'Kg');
 //var_dump($dogs);
 
 $cats = new CatsProduct('Crocchette per gatti', '18.90 $');

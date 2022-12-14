@@ -10,7 +10,9 @@
                     <img src="./img/cibo_cani.jpg"  alt="">
                 </div>
                 <div>
-                    <p><?php echo $dogs->getDogsProudctDetails() ?> &nbsp;<span class="lineThrough">29.90 $</span></p>
+                    <p><?php echo $dogs->getDogsProudctDetails();
+                     ?> &nbsp;<span class="lineThrough">29.90 $</span></p>
+                    <p><?php echo $dogs->getWeight();?> </p>
                     <p class="green">RIMANGONO SOLO 10 PEZZI</p>
                 </div>
             </div>
@@ -41,7 +43,8 @@
                     <img src="./img/cibo_gatti.jpg" alt="">
                 </div>
                 <div>
-                    <p><?php echo $cats->getCatsProudctDetails() ?></p>
+                    <p><?php echo $cats->getCatsProudctDetails(); ?></p>
+                    <p><?php echo $dogs->getWeight();?> </p>
                 </div>
             </div>
             <div class="cardCat">
