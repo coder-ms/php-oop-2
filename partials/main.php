@@ -2,9 +2,9 @@
 <div class="containerx">
     <div class="cardContainer">
         
-        <h3>CANI</h3>
+        <h4>CANI</h4>
         <div class="dogs">
-            
+        
             <div class="cardDog">
                 <div>
                     <img src="./img/cibo_cani.jpg"  alt="">
@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <h3>GATTI</h3>
+        <h4>GATTI</h4>
         <div class="cats">
             
             <div class="cardCat">
