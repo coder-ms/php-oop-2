@@ -1,4 +1,13 @@
 
+<?php 
+    function multiplication($int){
+        if(!is_int($int)){
+            throw new Exception('It is not a number');
+        }
+        return $int * 5;
+    }
+?>
+
 <div class="containerx">
     <div class="cardContainer">
         
@@ -22,7 +31,11 @@
                 </div>
                 <div>
                     <p><?php echo $dogs1->getDogsProudctDetails() ?></p>
-                    
+                    <p class="green"> PEZZI DISPONIBILI: 
+                        <?php
+                        echo multiplication(7);
+                        ?>
+                    </p>
                 </div>
             </div>
             <div class="cardDog">
@@ -56,8 +69,8 @@
                 </div>                
             </div>
             <div class="cardCat">
-            <div>
-                <img src="./img/lettiera_gatti.jpg" alt="">
+                <div>
+                    <img src="./img/lettiera_gatti.jpg" alt="">
                 </div>
                 <div>
                     <p><?php echo $cats2->getCatsProudctDetails() ?> &nbsp;<span class="lineThrough">89.90 $</span> </p>

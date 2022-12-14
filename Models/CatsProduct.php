@@ -1,6 +1,7 @@
 <?php
 require_once __DIR__ . '/../Traits/WeightTable.php';
 class CatsProduct{
+  
   use WeightTable;
 
   // DATI PRINCIPALI

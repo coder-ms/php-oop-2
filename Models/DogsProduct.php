@@ -1,9 +1,9 @@
 <?php
 require_once __DIR__ . '/../Traits/WeightTable.php';
-class DogsProduct
-{
-  use WeightTable;
+class DogsProduct{
   
+  use WeightTable;
+
   // DATI PRINCIPALI
   public string $name;
   public $price;

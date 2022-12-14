@@ -4,9 +4,9 @@ require_once __DIR__ . '/Models/CatsProduct.php';
 require_once __DIR__ . '/Models/DogsProduct.php';
 
 
+
+
 /* CREAZIONE NUOVA CLASSE */
-
-
 $dogs = new DogsProduct('Bocconcini per cani', '19.90 $');
 $dogs1 = new DogsProduct('Ossi per cani', '9.90 $');
 $dogs2 = new DogsProduct('Guinzaglio per cani', '22.90 $');
